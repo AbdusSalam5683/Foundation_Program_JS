@@ -8,3 +8,7 @@ console.log(userName)
 
 let userNameLet = "safin 'let'"
 console.log(userNameLet)
+
+
+const userNameConst = "Omor faruk"
+console.log(userNameConst)
