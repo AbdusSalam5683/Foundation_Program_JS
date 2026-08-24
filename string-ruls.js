@@ -16,4 +16,6 @@ console.log(randomstr);
 
 let address = "Rajshahi"
 
-console.log(address.toUpperCase)
+console.log(address.toLocaleUpperCase())
+console.log(address.includes("R"))
+console.log(address.length);
