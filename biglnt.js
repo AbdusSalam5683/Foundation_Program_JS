@@ -13,3 +13,7 @@ console.log(maxNumber + 1);
 
 console.log(maxNumber + 2);
 console.log(BigInt(maxNumber + 2));
+
+// ৩. BigInt ব্যবহার করলে:
+console.log(9007199254740991n + 1n); // 9007199254740992n
+console.log(9007199254740991n + 2n); // 9007199254740993n (সঠিক!)
