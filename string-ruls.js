@@ -12,3 +12,8 @@ console.log(fullName2)
 
 let randomstr = "i am \"Student\" "
 console.log(randomstr);
+
+
+let address = "Rajshahi"
+
+console.log(address.toUpperCase)
