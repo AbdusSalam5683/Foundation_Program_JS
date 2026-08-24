@@ -8,3 +8,7 @@ let fullName2 = `${firstName} ${lastName} \nNaoga`
 
 
 console.log(fullName2)
+
+
+let randomstr = "i am \"Student\" "
+console.log(randomstr);
