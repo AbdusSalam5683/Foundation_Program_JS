@@ -9,7 +9,7 @@ if(age >= 18){
 
 
 
-let marks = 33;
+let marks = 63;
 
 if(marks>=80){
     console.log("A+")
@@ -24,3 +24,23 @@ if(marks>=80){
 }else{
     console.log("F")
 }
+
+
+switch(true){
+    case marks >= 80:
+        console.log("A+");
+        break;
+        case marks >= 70:
+            console.log("A");
+            break;
+            default:
+                console.log("Improvement");
+                break;
+}
+
+
+
+// Ternary condition ? expressionIfTrue : expressionIfFalse
+
+
+age >=18 ? console.log("voter") : console.log("Not Voter")
